@@ -1,0 +1,10 @@
+test\BaseTest.class
+test\LoginTest.class
+driver\DriverSingletion.class
+page\confirmationpage\ConfirmationPage.class
+page\confirmationpage\ConfirmationPageLocators.class
+page\errormessagepage\ErrorMessagePage.class
+page\signinpage\SignPage.class
+page\BasePage.class
+page\signinpage\SignPageLocators.class
+page\errormessagepage\ErrorMessagePageLocators.class

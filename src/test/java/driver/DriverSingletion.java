@@ -1,16 +1,23 @@
 package driver;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+
+import utils.WebDriverListner;
 
 public class DriverSingletion {
-    private static WebDriver driver;
+//    private static WebDriver driver;
+    private static EventFiringWebDriver driver;
+    static Logger log = Logger.getRootLogger();
 
     private DriverSingletion() {
     }
     public static WebDriver getDriver() {
 	if (driver == null) {
-	    driver = new ChromeDriver();
+	    driver = new EventFiringWebDriver(new ChromeDriver());
+	    driver.register(new WebDriverListner());
 	}
 	return driver;
 

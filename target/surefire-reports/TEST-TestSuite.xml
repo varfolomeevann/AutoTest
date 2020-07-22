@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="TestSuite" time="0.958" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="TestSuite" time="1.236" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.7+8-LTS"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8.1"/>
-    <property name="classworlds.conf" value="D:\наташа it step\java\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf14479035990090732411.tmp"/>
+    <property name="classworlds.conf" value="D:\наташа it step\java\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf13002839803401533221.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:/Program Files/Java/jdk-11.0.7/bin/server;c:/Program Files/Java/jdk-11.0.7/bin;c:\Program Files\Java\jdk-11.0.7\bin\;C:\Program Files\Docker Toolbox\;C:\Program Fies\Git\bin\;c:\Program Files\Git\bin\;C:\Program Files\Avest\AvPCM_Paritet;C:\Program Files\apache-maven-3.6.3\bin;;C:\WebDriver\bin;;c:\WebDtiver\bin&quot;;D:\наташа it step\java\allure-2.6.0\bin;;C:\Program Files\Docker Toolbox;c:\Program Files\Git\bin\;C:\Users\one\Desktop;;."/>
     <property name="jdk.debug" value="release"/>
@@ -61,6 +61,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="test.LoginTest" name="emptyFields" time="0.397"/>
-  <testcase classname="test.LoginTest" name="successfullLogin" time="0.561"/>
+  <testcase classname="test.LoginTest" name="emptyFields" time="0.444"/>
+  <testcase classname="test.LoginTest" name="successfullLogin" time="0.792"/>
 </testsuite>

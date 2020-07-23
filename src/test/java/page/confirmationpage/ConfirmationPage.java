@@ -10,6 +10,7 @@ public class ConfirmationPage extends BasePage {
     public WebElement lookForElement(By by) {
    	return super.lookForElement(by);
        }
+    
     public boolean isDispalyed() {
 	return lookForElement(CONFIRMATIO_WINDOW).isDisplayed();
 	

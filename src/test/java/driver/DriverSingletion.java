@@ -19,12 +19,14 @@ public class DriverSingletion {
 	    driver = new EventFiringWebDriver(new ChromeDriver());
 	    driver.register(new WebDriverListner());
 	}
+	log.info("Get driver");
 	return driver;
 
     }
     public static void closeDriver() {
 	if (driver != null) {
 	    driver.quit();
+	    log.info("Close driver");
 	    driver = null;
 	}
     }

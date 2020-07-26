@@ -30,7 +30,7 @@ public class LoginTest extends BaseTest{
 	signPadge.insertPassword("demo");
 	signPadge.clickLoginButton();
 	
-	Assert.assertTrue(confirmationPadge.equals(confirmationPadge));
+	Assert.assertTrue(confirmationPadge.isDispalyed());
 	
     }
   
